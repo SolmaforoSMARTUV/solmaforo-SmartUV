@@ -1,0 +1,27 @@
+{
+  "name": "SOLMAFORO SMART UV",
+  "short_name": "SOLMAFORO UV",
+  "description": "SOLMAFORO SMART UV: conoce, interpreta y aprende sobre los niveles de radiación ultravioleta.",
+  "lang": "es-EC",
+  "dir": "ltr",
+  "start_url": "/solmaforo-SmartUV/",
+  "scope": "/solmaforo-SmartUV/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#F57C00",
+  "background_color": "#06152D",
+  "icons": [
+    {
+      "src": "/solmaforo-SmartUV/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/solmaforo-SmartUV/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
