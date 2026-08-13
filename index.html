@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#F57C00">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#F57C00">
-  <meta name="description" content="SOLMAFORO SMART UV - conoce, interpreta y aprende sobre los niveles de radiación ultravioleta.">
-  <title>SOLMAFORO SMART UV</title>
+  <meta name="theme-color" content="#6C2BD9">
+  <meta name="description" content="SOLMÁFORO SMART UV - conoce, interpreta y aprende sobre los niveles de radiación ultravioleta.">
+  <title>SOLMÁFORO SMART UV</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,12 +14,12 @@
 
   <main class="container">
     <section class="hero">
-      <div class="sun" aria-hidden="true">
-        <span class="sun-core">☀</span>
+      <div class="logo-wrap">
+        <img class="logo" src="logo-solmaforo.png" alt="Logo SOLMÁFORO SMART UV">
       </div>
 
       <p class="eyebrow">PROYECTO DE TITULACIÓN</p>
-      <h1>SOLMAFORO<br><span>SMART UV</span></h1>
+      <h1>SOLMÁFORO<br><span>SMART UV</span></h1>
       <p class="subtitle">
         Conoce, interpreta y aprende sobre los niveles de radiación ultravioleta.
       </p>
@@ -36,7 +34,7 @@
     </section>
 
     <section class="menu" aria-label="Opciones del proyecto">
-      <a class="action orange-main" href="https://solmaforo-smart-uv.web.app/" target="_blank" rel="noopener">
+      <a class="action web-main" href="https://solmaforo-smart-uv.web.app/" target="_blank" rel="noopener">
         <span class="icon">🌐</span>
         <span><strong>Visitar página web</strong><small>Explora nuestro proyecto</small></span>
         <span class="arrow">→</span>
@@ -44,7 +42,7 @@
 
       <a class="action red" href="downloads/Solmaforo_Smart_UV_UCE_v5.1.2.apk" download>
         <span class="icon">📱</span>
-        <span><strong>Descargar aplicación</strong><small>Instala SOLMAFORO SMART UV en Android</small></span>
+        <span><strong>Descargar aplicación</strong><small>Instala SOLMÁFORO SMART UV en Android</small></span>
         <span class="arrow">↓</span>
       </a>
 
@@ -56,29 +54,21 @@
     </section>
 
     <section class="project-card">
-      <div class="mini-sun">☀️</div>
+      <div class="mini-logo">
+        <img src="logo-solmaforo.png" alt="SOLMÁFORO" loading="lazy">
+      </div>
       <div>
-        <h2>SOLMAFORO SMART UV</h2>
+        <h2>SOLMÁFORO SMART UV</h2>
         <p>Una propuesta tecnológica y educativa para comprender la radiación UV.</p>
       </div>
     </section>
 
     <footer>
-      <p>SOLMAFORO SMART UV</p>
+      <p>SOLMÁFORO SMART UV</p>
       <p>Proyecto de titulación</p>
     </footer>
   </main>
 
   <script src="script.js"></script>
-  <script>
-  if ("serviceWorker" in navigator) {
-    window.addEventListener("load", () => {
-      navigator.serviceWorker.register("sw.js")
-        .then(() => console.log("SOLMAFORO SMART UV: Service Worker registrado"))
-        .catch((error) => console.error("Error al registrar Service Worker:", error));
-    });
-  }
-</script>
-  
 </body>
 </html>
