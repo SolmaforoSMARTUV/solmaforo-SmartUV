@@ -1,4 +1,4 @@
-const CACHE_NAME = "solmaforo-smart-uv-v1";
+const CACHE_NAME = "solmaforo-smart-uv-v2";
 const APP_SHELL = [
   "/solmaforo-SmartUV/",
   "/solmaforo-SmartUV/index.html",
